@@ -1,0 +1,85 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #0026ff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #444;
+}
+
+nav a {
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    color: #333;
+}
+
+.section-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.section-content img {
+    width: 100%;
+    max-width: 300px; /* Limita o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%;
+    margin: 20px auto; /* Centraliza a imagem */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+    nav a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .section-content {
+        padding: 15px;
+    }
+
+    .section-content img {
+        max-width: 200px; /* Diminui o tamanho máximo da imagem em telas pequenas */
+    }
+}
